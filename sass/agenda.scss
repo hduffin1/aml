@@ -1,3 +1,24 @@
 .agenda {
     margin-top: 150px;
+
+    .agenda-holder {
+
+        .agenda-session {
+            display: flex;
+            justify-content: flex-start;
+
+            .time {
+                width: 15%;
+                margin-right: 30px;
+            }
+
+            .session {
+                width: 90%;
+                .session-name {
+                    margin-bottom: 0;
+                    color: $orange;
+                }
+            } 
+        }
+    }
 }

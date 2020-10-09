@@ -3,10 +3,11 @@
         top: 0;
         z-index: 1000;
         width: 100%;
+        background-color: $white;
         border-bottom: solid 2px $blue;
 
         .header-logo {
-          height: 70px;
+          height: 60px;
           padding: 10px 0;
         }
     }
@@ -21,7 +22,7 @@
       font-family: myriad-pro, sans-serif;
       font-weight: 400;
       li {
-          padding: 10px 15px;
+          padding: 5px 15px;
           cursor: pointer;
           margin-top: 15px;
       }

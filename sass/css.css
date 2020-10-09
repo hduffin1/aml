@@ -15,12 +15,25 @@ h2 {
   color: #e4602b;
 }
 
+h3 {
+  font-family: myriad-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #005480;
+}
+
 p {
   font-family: myriad-pro, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
   line-height: 24px;
+}
+
+body {
+  margin: 0;
 }
 
 .container {
@@ -53,10 +66,11 @@ header {
   top: 0;
   z-index: 1000;
   width: 100%;
+  background-color: #fff;
   border-bottom: solid 2px #005480;
 }
 header .header-logo {
-  height: 70px;
+  height: 60px;
   padding: 10px 0;
 }
 
@@ -71,7 +85,7 @@ header .header-logo {
   font-weight: 400;
 }
 .nav ul li {
-  padding: 10px 15px;
+  padding: 5px 15px;
   cursor: pointer;
   margin-top: 15px;
 }
@@ -238,6 +252,35 @@ header .header-logo {
 
 .agenda {
   margin-top: 150px;
+}
+.agenda .agenda-holder .agenda-session {
+  display: flex;
+  justify-content: flex-start;
+}
+.agenda .agenda-holder .agenda-session .time {
+  width: 15%;
+  margin-right: 30px;
+}
+.agenda .agenda-holder .agenda-session .session {
+  width: 90%;
+}
+.agenda .agenda-holder .agenda-session .session .session-name {
+  margin-bottom: 0;
+  color: #e4602b;
+}
+
+footer {
+  margin-top: 50px;
+  height: 50px;
+  background-color: #e4602b;
+}
+footer p {
+  padding-top: 15px;
+  color: #fff;
+}
+footer p a {
+  color: #fff;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=css.css.map */
