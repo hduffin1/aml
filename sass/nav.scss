@@ -30,12 +30,17 @@
       a {
           text-decoration: none;
           color: $blue;
+
+          &:hover {
+            color: $orange;
+            transition: .4s;
+          }
       }
     }
 
     /* Style the menu link */
     .js .nav .skip {
-      color: $white;
+      color: $blue;
       position: absolute;
       right: 1em;
       top: 20px;
@@ -46,6 +51,8 @@
       line-height: 2.5em;
       text-transform: uppercase;
       text-decoration: none;
+      font-size: 18px;
+      font-family: myriad-pro, sans-serif;
           &:hover {
               transition: .4s;
           }
@@ -85,7 +92,7 @@
 
 
 /* On screens larger than 1200px, remove the menu link and display all menu items */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 800px) {
   .js .nav ul {
     width: 100%;
     overflow: auto;
@@ -94,6 +101,7 @@
     display: flex;
     justify-content: flex-start;
     background-color: transparent;
+
   }
   .js .nav li {
     text-align: left;
@@ -114,11 +122,21 @@
   .js .nav ul {
     right: 0px;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 20px;
+    background-color: $blue;
   }
 
   .js .nav li {
+    padding: 15px 20px;
     margin-top: 0;
+    border-bottom: 1px solid $white;
+    a {
+      color: $white;
+
+      &:hover {
+        color: $orange;
+      }
+    }
   }
 
   .js nav li {
@@ -132,11 +150,21 @@ and (max-width: 768px) {
   .js .nav ul {
     right: 0px;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 20px;
+    background-color: $blue;
   }
 
   .js .nav li {
+    padding: 15px 20px;
     margin-top: 0;
+    border-bottom: 1px solid $white;
+    a {
+      color: $white;
+
+      &:hover {
+        color: $orange;
+      }
+    }
   }
 
   .js nav li {
@@ -150,26 +178,7 @@ and (max-width: 991px) {
   .js .nav ul {
     right: 0px;
     width: 100%;
-    margin-top: 30px;
-  }
-
-  .js .nav li {
-    margin-top: 0;
-  }
-
-    .js nav li {
-      text-align: right;
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 991px) 
-and (max-width: 1200px) {
-
-  .js .nav ul {
-    right: 0px;
-    width: 100%;
-    margin-top: 30px;
+    margin-top: 15px;
   }
 
   .js .nav li {

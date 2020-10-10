@@ -1,0 +1,13 @@
+.stream {
+	margin-top: 150px;
+
+	.video-wrapper {
+        flex-basis: 67%;      
+    }
+
+    .chat-wrapper {
+        text-align: center;
+        width: 30%;
+        border: 1px solid $orange;
+    }
+}
