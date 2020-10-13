@@ -300,7 +300,7 @@ header .header-logo {
 .stream .chat-wrapper {
   text-align: center;
   width: 30%;
-  border: 1px solid #e4602b;
+  margin: -20px;
 }
 
 .contact {
